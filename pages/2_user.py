@@ -11,9 +11,9 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from config import DATA_DIR, IMG_PATH, path
 from loguru import logger as _logger
 from src.logger import DevConfig
-from src.util import (check_essential, get_image_base64, local_css,
+from src.util import (check_essential, local_css,
                         read_job_info_tb, read_prompt_from_txt,
-                        read_sample_resume, save_uploaded_jd_as_filepath)
+                        save_uploaded_jd_as_filepath)
 
 st.session_state['FAV_IMAGE_PATH'] = os.path.join(IMG_PATH, "favicon.png")
 

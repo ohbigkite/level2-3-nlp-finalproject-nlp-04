@@ -29,6 +29,7 @@ langchain-community = "^0.0.32"
 openai = "^1.17.0"
 plotly = "^5.20.0"
 cohere = "^5.2.5"
+pandas = "^2.2.2"
 
 
 [build-system]
