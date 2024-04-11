@@ -2,10 +2,9 @@ import os
 import sys
 
 import uvicorn
-from fastapi import FastAPI, Request, Response, WebSocket
+from fastapi import FastAPI, Request, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, RedirectResponse
-from fastapi.templating import Jinja2Templates
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 
 sys.path.append("./")
