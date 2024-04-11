@@ -9,9 +9,9 @@ from io import BytesIO
 
 import pandas as pd
 import streamlit as st
-from langchain.chains import ConversationChain
-from langchain_community.chat_models import ChatOpenAI
-from langchain_community.embeddings import OpenAIEmbeddings
+from langchain.chains.conversation.base import ConversationChain
+from langchain_community.chat_models.openai import ChatOpenAI
+from langchain_community.embeddings.openai import OpenAIEmbeddings
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.prompts import PromptTemplate
 from PIL import Image

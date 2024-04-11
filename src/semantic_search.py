@@ -3,7 +3,7 @@ import sys
 import re
 
 import cohere
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
 from langchain.vectorstores.faiss import FAISS
 
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))

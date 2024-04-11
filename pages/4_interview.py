@@ -7,7 +7,7 @@ from PIL import Image
 from streamlit_extras.switch_page_button import switch_page
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from src.util import load_chain
-from config import DATA_DIR, IMG_PATH
+from config import IMG_PATH
 NEXT_PAGE = "question_list"
 
 st.session_state["FAV_IMAGE_PATH"] = os.path.join(IMG_PATH, "favicon.png")
